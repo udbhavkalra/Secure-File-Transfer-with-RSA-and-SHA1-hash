@@ -1,0 +1,15 @@
+How to compile and run:
+
+for Compilation:
+Client: gcc 201505571_assign_1_client.c -Wall -lcrypto
+Server: gcc 201505571_assign_1_server.c -Wall -lcrypto
+
+to run:
+Client: ./a.out 127.0.0.1
+Server: ./a.out
+
+Assumption:
+Only the characters given in the Table in pdf will be included in the text file
+
+for Encryption install SHA package:
+sudo apt-get install openssl
